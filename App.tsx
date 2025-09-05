@@ -1,8 +1,8 @@
 import React from 'react';
-import MelodyKingStack from './StackNavigator';
+import AppManager from './src/AppManager/AppManager';
 
 function App() {
-  return <MelodyKingStack />
+  return <AppManager />
 }
 
 export default App;

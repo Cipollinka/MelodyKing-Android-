@@ -159,7 +159,7 @@ const HomeScreen = () => {
                   textShadowRadius: dimensions.width * 0.01,
                 }}
               >
-                Melody King: Ging’s Color Keys
+                Melody Time
               </Text>
 
 

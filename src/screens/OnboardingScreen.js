@@ -31,15 +31,15 @@ const OnboardingScreen = () => {
       style={{ justifyContent: 'space-between', flex: 1, backgroundColor: '#212121', alignItems: 'center', height: dimensions.height }}
     >
       <Image
-        resizeMode="stretch"
-        source={require('../assets/images/OnboardingBackground.png')}
+        source={require('../AppManager/src/Slice3.jpeg')}
         style={{
-          marginBottom: 15.8,
+          // marginBottom: 15.8,
           height: '100%',
           width: '100%',
+          position: 'absolute'
         }}
       />
-      <View style={{
+      {/* <View style={{
         alignItems: 'center',
         position: 'absolute',
         bottom: 0,
@@ -82,18 +82,18 @@ const OnboardingScreen = () => {
           }}>
           Get ready to groove! Challenge your memory in the main game or unleash your creativity by crafting your own melodies🎶
         </Text>
-      </View>
+      </View> */}
 
       <TouchableOpacity
         onPress={() => {
           navigation.replace('Home');
         }}
         style={{
-          bottom: '19%',
+          bottom: 40,
+          position: 'absolute',
           alignSelf: 'center',
           alignItems: 'center',
           justifyContent: 'center',
-          marginTop: dimensions.height * 0.05,
           borderRadius: dimensions.width * 0.057,
           backgroundColor: '#afe157',
           paddingVertical: dimensions.width * 0.03,
